@@ -647,3 +647,11 @@ $ ^C
 
 mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
 $
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ ls -1q lorem | wc -l
+4
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ ls lorem | wc -l
+4
+
