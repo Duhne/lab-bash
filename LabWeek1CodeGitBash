@@ -655,3 +655,42 @@ mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
 $ ls lorem | wc -l
 4
 
+mfduh@Mafer MINGW64 ~/Ironhack.labs
+$ cd lab-bash
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ read name
+Fernanda
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ echo name
+name
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ echo $name
+Fernanda
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ mkdir $name
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ ls
+Fernanda/  exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ rm $name
+rm: cannot remove 'Fernanda': Is a directory
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ rmdir $name
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$ ls
+exercices/  inputs/  lorem/  lorem-copy/  outputs/  readme.md
+
+mfduh@Mafer MINGW64 ~/Ironhack.labs/lab-bash (master)
+$
